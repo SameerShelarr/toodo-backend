@@ -37,7 +37,7 @@ toodo-backend is a Kotlin + Spring Boot REST API that powers the **toodo** produ
 2. Open the project in your IDE (IntelliJ IDEA recommended).
 3. Configure environment variables in **Run/Debug Configurations → Environment variables**:
    - `MONGODB_CONNECTION_STRING`: a full MongoDB connection URI (e.g. `mongodb://localhost:27017/toodo`).
-   - `JWT_SECRET_BASE_64`: Base64-encoded string at least 256 bits when decoded (e.g. generate with `openssl rand -base64 32`).
+   - `JWT_SECRET_BASE_64`: Base64-encoded string (you can add any string after encoding it with base64) at least 256 bits when decoded (e.g. generate with `openssl rand -base64 32`).
 
 ### Running the Application
 - From your IDE: run the `ToodoApplication` main class.
