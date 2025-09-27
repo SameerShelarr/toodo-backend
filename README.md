@@ -31,7 +31,7 @@ toodo-backend is a Kotlin + Spring Boot REST API that powers the **toodo** produ
 ### Project Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-org>/toodo-backend.git
+   git clone https://github.com/SameerShelarr/toodo-backend.git
    cd toodo-backend
    ```
 2. Open the project in your IDE (IntelliJ IDEA recommended).
