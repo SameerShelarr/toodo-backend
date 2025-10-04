@@ -5,7 +5,7 @@
 
 ## Overview
 
-toodo-backend is a Kotlin + Spring Boot REST API that powers the **toodo** productivity app. It provides JWT-based authentication, MongoDB persistence, and endpoints for creating, retrieving, and managing todos tied to individual users.
+toodo-backend is a Kotlin + Spring Boot REST API that powers the [**toodo**](https://github.com/SameerShelarr/toodo-multi-platform) productivity app (A Kotlin multiplatform app). It provides JWT-based authentication, MongoDB persistence, and endpoints for creating, retrieving, and managing todos tied to individual users.
 
 ### Features
 - Registration and login with BCrypt-hashed passwords
