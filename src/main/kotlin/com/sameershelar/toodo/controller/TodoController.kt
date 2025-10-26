@@ -1,5 +1,7 @@
 package com.sameershelar.toodo.controller
 
+import com.fasterxml.jackson.annotation.JsonIgnore
+import com.fasterxml.jackson.annotation.JsonProperty
 import com.sameershelar.toodo.db.model.Todo
 import com.sameershelar.toodo.db.repository.TodoRepository
 import jakarta.validation.Valid
@@ -26,6 +28,8 @@ class TodoController(
     data class TodoResponse(
         val id: String,
         val title: String,
+        @field:JsonIgnore
+        @get:JsonProperty("isComplete")
         val isComplete: Boolean,
         val color: Long,
         val createdAt: Instant,
